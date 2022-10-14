@@ -1,0 +1,88 @@
+body{
+    margin: 0 0;
+    background-image: url("./fundo.jpg");
+    background-size: 150px;
+}
+li{
+    list-style: none;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(87, 0, 0)
+}
+ul{
+    display: flex;
+}
+.cabecalho{
+    background-color: rgb(8, 8, 8);
+    align-items: center;
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    top: 0;
+    
+}
+.corpo{
+    display: flex;
+    margin: 20px 10%;
+}
+.texto_conteudo{
+    margin: 10px;
+}
+.menu{
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: space-between;
+    color: rgb(150, 28, 28);
+    margin: 0 10%;
+    
+}    
+.inicio{
+    background-image: url('./pizza2.webp');
+    background-attachment: fixed;
+    background-position: center center;
+    display: flex;
+    background-color: rgb(31, 30, 29);
+    align-content: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+.pizzas{
+    height: 400px;
+    
+}
+.conteudo{
+    background-color: #241E20;
+    border-style:double;
+    border-width: 5px;
+    border-radius: 20px;
+    color: #A5A3A4;
+    margin: 20px 20px 20px;
+}
+.pizzas img{
+    margin-top: 100px;
+    height: 300px;
+}
+#texto_inicio{
+    color:#9b0f009c;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+.inicio h1, h2{
+    text-align: center;
+}
+
+#button{
+    border-radius: 60px;
+    background-color:rgb(31, 30, 29);
+    height: 50px;
+    width: 160px;
+    border-style:double;
+    color: aliceblue;
+    margin: 100px;
+}
