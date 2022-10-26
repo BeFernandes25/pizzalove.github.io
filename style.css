@@ -2,6 +2,7 @@ body{
     margin: 0 0;
     background-image: url("./fundo.jpg");
     background-size: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 li{
     list-style: none;
@@ -9,7 +10,7 @@ li{
 }
 a{
     text-decoration: none;
-    color: rgb(87, 0, 0)
+    color: rgb(161, 128, 128)
 }
 ul{
     display: flex;
@@ -85,4 +86,23 @@ ul{
     border-style:double;
     color: aliceblue;
     margin: 100px;
+}
+@media screen and (max-width:800px){
+    .cabecalho{
+        position: inherit;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    ul {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .corpo{
+        flex-direction: column;
+    }
 }
